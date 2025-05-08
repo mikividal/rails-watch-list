@@ -1,0 +1,5 @@
+<h3> <%= @list.name %></h3>
+<% @bookmarks.each do |bookmark| %>
+  <%= bookmark.movie.title %>
+  <%= link_to "Delete", bookmark_path(bookmark), data: {turbo_method: :delete} %>
+<% end %>
