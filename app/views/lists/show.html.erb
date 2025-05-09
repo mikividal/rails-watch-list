@@ -3,3 +3,6 @@
   <%= bookmark.movie.title %>
   <%= link_to "Delete", bookmark_path(bookmark), data: {turbo_method: :delete} %>
 <% end %>
+
+<%= link_to "Add a Movie", new_list_bookmark_path(@list) %>
+<%= link_to "Back to Lists", lists_path %>
