@@ -2,6 +2,9 @@
   background-size: contain;
   background-position: center;
   padding: 150px 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-color: white;
 }
 
 .banner h1 {
@@ -11,4 +14,18 @@
   font-size: 60px;
   font-weight: bold;
   text-align: center;
+}
+
+.movies{
+  position: absolute;
+  top: 0;
+  left: 10;
+  padding: 8px 16px;
+  background-color: rgb(48, 48, 189);
+  color: white;
+  border-radius: 8px;
+  margin: 16px 16px;
+}
+.banner img{
+
 }
